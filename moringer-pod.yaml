@@ -3,6 +3,7 @@ kind: Pod
 metadata:
  name: fortune
 spec:
+
  containers:
  - image: figent/:1
    name: html-generator
