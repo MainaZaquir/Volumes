@@ -2,7 +2,6 @@
 trap "exit" SIGINT
 mkdir /var/htdocs
 
-
 while :
 do
  echo $(date) Writing Moringa students all the fortune to /var/htdocs/index.html
